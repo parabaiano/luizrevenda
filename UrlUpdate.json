@@ -1,6 +1,6 @@
 {
-    "Version": "1.0.1",
-    "ReleaseNotes": "ultima verção 1.0.1",
+    "Version": "2.0.1",
+    "ReleaseNotes": "ultima verção 2.0.1",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/luizrevenda/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
     "EmailFeedback": "https://wa.me/message/M3UNG4X3QT5FN1",
@@ -120,7 +120,7 @@
       {
         "Name": "CLARO 01",
         "FLAG": "claro",
-        "Payload": "GET wss://boom4u.com.br HTTP/1.1 [crlf]Host:[app_host][crlf]Connection: upgrade[crif]Upgrade: websocket [crlf][crlf]",
+        "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "boom4u.com.br",
         "TlsIP": "boom4u.com.br",
         "ProxyIP": "",
@@ -130,17 +130,17 @@
       {
         "Name": "CLARO 02",
         "FLAG": "claro",
-        "Payload": "GET wss://boom4u.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+        "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "boom4u.com.br",
-        "TlsIP": "",
-        "ProxyIP": "172.67.201.105",
+        "TlsIP": "172.67.201.105",
+        "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
       },
       {
         "Name": "CLARO SSL 03",
         "FLAG": "claro",
-        "Payload": "GET wss://boom4u.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+        "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "boom4u.com.br",
         "TlsIP": "boom4u.com.br",
         "ProxyIP": "",
@@ -150,10 +150,10 @@
       {
         "Name": "CLARO SSL 04",
         "FLAG": "claro",
-        "Payload": "GET ws://boom4u.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-        "SNI": "boom4u.com.br",
-        "TlsIP": "boom4u.com.br",
-        "ProxyIP": "172.67.201.105",
+        "Payload": "GET wss://ftp.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "ftp.boom4u.com.brr",
+        "TlsIP": "ftp.boom4u.com.br",
+        "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Ssl"
       },
