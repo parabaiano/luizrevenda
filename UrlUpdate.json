@@ -1,5 +1,5 @@
 {
-    "Version": "11.0.1",
+    "Version": "12.0.1",
     "ReleaseNotes": "Novos provedores adicionado",
     "UrlUpdate": "https://raw.githubusercontent.com/parabaiano/luizrevenda/main/UrlUpdate.json",
     "Sms": "https://raw.githubusercontent.com/parabaiano/conect/main/UrlSms.json",
@@ -7,12 +7,25 @@
     "UrlContato": "https://api.whatsapp.com/send?phone=5551980166604",
     "UrlTermos": "https://raw.githubusercontent.com/parabaiano/conect/main/termos.html",
     "CheckUser": "true",
-    "Udp": [
+   "Udp": [
       {
         "Porta": "7300"
       }
     ],
     "Servers": [
+      {
+        "Name": "Servidor Br 4G+",
+        "TYPE": "premium",
+        "FLAG": "br.png",
+        "ServerIP": "br.cactusdeveloper.host",
+        "CheckUser": "http://209.14.136.202:5454/checkUser",
+        "ServerPort": "22",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+      }
+    ],
+    "Networks": [
    { 
       "Name": "VIVO 01",
       "FLAG": "vivo",
